@@ -1,7 +1,7 @@
 use std::{sync::{Arc, RwLock}, time::{Duration, Instant}};
 
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Copy)]
 pub struct Timer {
     timer: Instant
 }
